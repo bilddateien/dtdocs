@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>masking &amp; blending on darktable user manual (development version)</title>
+    <link>https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/</link>
+    <description>Recent content in masking &amp; blending on darktable user manual (development version)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>overview</title>
+      <link>https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/overview/</guid>
+      <description>By default each module takes its input from the preceding module in the pixelpipe, performs its operation on the image data, and hands the output over to the next module in the pixelpipe.
+A module&amp;rsquo;s output data can optionally be reprocessed (combined) with its input data before being handed to the next module. This additional processing step is called blending. Input and output data is reprocessed using algorithms called blending operators or blend modes.</description>
+    </item>
+    
+    <item>
+      <title>blend modes</title>
+      <link>https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/blend-modes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/dtdocs/darkroom/masking-and-blending/blend-modes/</guid>
+      <description>Blend modes define how the input and output of a module are combined (blended) together before a module&amp;rsquo;s final output is passed to the next module in the pixelpipe. Most of the blend modes should be familiar from other imaging software and are thoroughly discussed in the GIMP user manual.
+This section therefore only discusses some of the darktable-specific blend modes in detail.
+Some blend modes depend on a fulcrum for their operation.</description>
+    </item>
+    
+  </channel>
+</rss>
